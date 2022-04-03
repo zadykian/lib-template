@@ -4,8 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Lib", "Template.Li
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{6130D326-DCFB-48CB-9617-3FF0AE2FCF57}"
 	ProjectSection(SolutionItems) = preProject
-		.build\common.lib.props = .build\common.lib.props
-		.build\common.props = .build\common.props
+		common.lib.props = common.lib.props
+		common.props = common.props
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Test", "Template.Test\Template.Test.csproj", "{EE636FC3-C9BE-4BF4-8B82-570B8B299C49}"

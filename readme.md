@@ -1,2 +1,2 @@
 # lib-template
-dotnet new template for creation of libraries
+dotnet new template to create reusable code libraries using C#

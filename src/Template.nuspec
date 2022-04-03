@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata>
+		<id>Template.Library</id>
+		<version>1.0.0</version>
+		<description>
+			dotnet new template to create reusable code libraries using C#
+		</description>
+		<authors>zadykian</authors>
+		<packageTypes>
+			<packageType name="Template"/>
+		</packageTypes>
+	</metadata>
+	<files>
+		<file src="**" exclude="*\obj\**;*\bin\**;readme.md;"/>
+<!--		<file src="**" exclude=".*"/>-->
+	</files>
+</package>
