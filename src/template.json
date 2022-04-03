@@ -1,0 +1,15 @@
+{
+	"$schema": "https://json.schemastore.org/template",
+	"author": "zadykian",
+	"classifications": [
+		"Common",
+		"Library"
+	],
+	"identity": "Colchis.Templates.Library",
+	"name": "Reusable Code Library",
+	"shortName": "lib-template",
+	"tags": {
+		"language": "C#",
+		"type": "solution"
+	}
+}
