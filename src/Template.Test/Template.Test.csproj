@@ -1,10 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-	<PropertyGroup>
-	  <RootNamespace>Template.Test</RootNamespace>
-	</PropertyGroup>
-
-	<Import Project="$(MSBuildThisFileDirectory)\..\.common\common.props" />
+	<Import Project="$(MSBuildThisFileDirectory)\..\.build\common.props" />
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
@@ -14,7 +10,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Colchis.Template.Lib\Colchis.Template.Lib.csproj" />
+		<ProjectReference Include="..\Template.Lib\Template.Lib.csproj">
+		  <Project>{55990dc7-4a4f-4252-ac84-e12c92638917}</Project>
+		  <Name>Template.Lib</Name>
+		</ProjectReference>
 	</ItemGroup>
 
 </Project>

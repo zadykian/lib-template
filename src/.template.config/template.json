@@ -5,13 +5,13 @@
 		"Common",
 		"Library"
 	],
-	"identity": "Colchis.Templates.Library",
+	"identity": "Templates.Library",
 	"name": "Reusable Code Library",
 	"shortName": "lib-template",
 	"tags": {
 		"language": "C#",
 		"type": "solution"
 	},
-	"sourceName": "Colchis.Template",
+	"sourceName": "Template",
 	"preferNameDirectory": true
 }
