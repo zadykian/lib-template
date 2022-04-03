@@ -11,5 +11,7 @@
 	"tags": {
 		"language": "C#",
 		"type": "solution"
-	}
+	},
+	"sourceName": "Colchis.Template",
+	"preferNameDirectory": true
 }

@@ -5,7 +5,6 @@
 	<PropertyGroup>
 		<PackageId>$(AssemblyName)</PackageId>
 		<PackageVersion>1.0.0</PackageVersion>
-		<Description>TODO</Description>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)'=='Release'">

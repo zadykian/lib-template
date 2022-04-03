@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
-	
+
 	<PropertyGroup>
-		<AssemblyName>{{Template}}</AssemblyName>
+		<AssemblyName>Colchis.Template</AssemblyName>
 	</PropertyGroup>
 
-	<Import Project="$(MSBuildThisFileDirectory)\..\common.lib.props" />
+	<Import Project="$(MSBuildThisFileDirectory)\..\.build\common.lib.props" />
 
 	<ItemGroup>
 		<PackageReference Include="TypeDecorators" Version="1.1.0" />
