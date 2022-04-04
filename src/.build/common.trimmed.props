@@ -1,0 +1,13 @@
+<Project>
+
+	<Import Project="$(MSBuildThisFileDirectory)\common.props" />
+
+	<!-- Build application as single trimmed executable on release mode. -->
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<PublishSingleFile>true</PublishSingleFile>
+		<PublishTrimmed>true</PublishTrimmed>
+		<TrimmerSingleWarn>false</TrimmerSingleWarn>
+		<TrimmerRemoveSymbols>true</TrimmerRemoveSymbols>
+	</PropertyGroup>
+
+</Project>

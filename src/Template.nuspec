@@ -12,7 +12,6 @@
 		</packageTypes>
 	</metadata>
 	<files>
-		<file src="**" exclude="*\obj\**;*\bin\**;readme.md;"/>
-<!--		<file src="**" exclude=".*"/>-->
+		<file src="**" exclude="*\obj\**;*\bin\**;readme.md;.idea\**;*.user;"/>
 	</files>
 </package>

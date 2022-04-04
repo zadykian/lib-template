@@ -9,4 +9,8 @@
 		<RootNamespace>$(AssemblyName)</RootNamespace>
 	</PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="TypeDecorators" Version="1.1.0" />
+	</ItemGroup>
+
 </Project>
